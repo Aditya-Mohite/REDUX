@@ -1,0 +1,167 @@
+
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ body{
+        background-image: url("background.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+body{
+    margin: 0;
+    padding: 0;	
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .navbar {
+    position: absolute;
+width: 1540px;
+height: 69px;
+left: 0px;
+top: 0px;
+background: linear-gradient(90.23deg, #581ABC 2.86%, rgba(192, 13, 255, 0.84) 67.46%, rgba(67, 255, 255, 0.69) 102.88%);
+/* background: linear-gradient(90.23deg, #8B3DD9 2.86%, rgba(68, 246, 246, 0.36) 102.88%);  */
+}
+
+.heading {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;	
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid rgb(3, 69, 237);
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: rgb(99, 99, 99);
+    border-color: rgb(11, 11, 11);
+    border-radius: 15px;
+}
+
+
+  .wrapper {
+    display:flex; 
+	margin-top: 5%;
+	margin-left: 5%;
+	color: rgb(62, 103, 198);
+    justfiy-content:space-between; 
+	width: 60vmax; }
+	
+.box { 
+	flex: 0 0 40%; 
+	height: 100%;
+	margin: 5%;
+	text-align:center;
+    background: linear-gradient(180deg, #766c6c 0%, #13101b 95.1%);
+	border-radius: 15px;
+}
+.microsoft-reactor-header {
+    font-size: 15px;
+}

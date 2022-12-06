@@ -1,0 +1,178 @@
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+   
+   
+    body{
+        background-image: url("background.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+    /* .navbar {
+        position: absolute;
+    width: 1540px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90.23deg, #581ABC 2.86%, rgba(192, 13, 255, 0.84) 67.46%, rgba(67, 255, 255, 0.69) 102.88%);
+    /* background: linear-gradient(90.23deg, #8B3DD9 2.86%, rgba(68, 246, 246, 0.36) 102.88%);  */
+    /* } */ 
+
+    /* .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    } */
+
+    /* .searchTerm {
+    background-color: transparent;
+    width: 100%;
+    border: 3px solid #b8b5b5;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 15px 15px;
+    outline: none;
+    color: #9DBFAF;
+    } */
+
+    /* .searchTerm:focus{
+    color: #f9f9f9;
+    }
+
+    .search-btn {
+        left: 63.19%;
+        right: 50%;
+        top: 13%;
+        bottom: 81.54%;
+    }
+       
+    .searchButton {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #000000;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    } */
+
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+    width: 30%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+
+    .search-logo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 6px;
+    z-index: 2;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .about-section-info {
+        font-family: "Playfair Display", serif;
+        color: white;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+        padding-right: 50%;
+        margin-top: 9%;
+    }
+/* 
+      .events-btn {
+        display: inline-block;
+        width: 324px;
+        height: 257px;
+        margin-bottom: 15px;
+        margin-left: 30%px;
+        margin-top: 100px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+        border-radius: 15px;
+      }
+      
+      .courses-btn {
+        display: inline-block;
+        width: 324px;
+        height: 257px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        margin-top: 100px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+        border-radius: 15px;
+      }
+      
+      
+      .jobs-btn {
+        display: inline-block;
+        width: 324px;
+        height: 257px; 
+        margin-bottom: 15px;
+        margin-left: 50px;
+        margin-top: 100px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+        border-radius: 15px;
+      /* } */
+      
+      .buttons {
+       margin-left: 16%;
+       margin-bottom: 200px;
+      } 
+
+      .btn-square-md-1 {
+        display: inline-block;
+        width: 324px;
+        height: 257px;
+        margin-bottom: 15px;
+        margin-left: 30%px;
+        margin-top: 100px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+        border-radius: 15px;
+        font-size: 25px;
+        font-style: italic;
+        cursor: pointer;
+        }
+
+        .btn-square-md-2 {
+          display: inline-block;
+          width: 324px;
+          height: 257px;
+          margin-bottom: 15px;
+          margin-left: 50px;
+          margin-top: 100px;
+          background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+          border-radius: 15px;
+          font-size: 25px;
+          font-style: italic;
+          cursor: pointer;
+          }
+          
+          .btn-square-md-3 {
+            display: inline-block;
+            width: 324px;
+            height: 257px;
+            margin-bottom: 15px;
+            margin-left: 50px;
+            margin-top: 100px;
+            background: linear-gradient(180deg, #FFFFFF 0%, #B297FF 95.1%);
+            border-radius: 15px;
+            font-size: 25px;
+            font-style: italic;
+            cursor: pointer;
+            }
